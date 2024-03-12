@@ -60,13 +60,47 @@ Quanto maior a população melhor
 
 O ideal é que a proporção de mulheres seja levemente maior
 
-Com isso peguei as df que continham as informações demográficas e economicas. Deixei apenas as populações alvo e obtivo um novo df contendo apenas os 30 melhores ZIPCODES de acordo com o critério economico e outro df apenas com os 30 melhores ZIPCODES demográficos.
+Com isso peguei as df que continham as informações demográficas e economicas. Deixei apenas as populações alvo e obtive um novo df contendo apenas os 30 melhores ZIPCODES de acordo com o critério economico e outro df apenas com os 30 melhores ZIPCODES demográficos.
+
+Detalhe que eu tomei o cuidado de remover os locais que já possuem os laboratórios.
 
 Cruzei os dois e obtive os 10 melhores ZIPCODES que atendiam ambos os critérios.
+
+![image](https://github.com/RafaelGuisso/AED_elogroup/assets/108840079/5c85437b-f244-44bc-bbad-1c45fc4d5657)
+
 
 ![image](https://github.com/RafaelGuisso/AED_elogroup/assets/108840079/dfa7d8f8-edb5-423f-83aa-366a8bf0527d)
 
 Nesse mapa acima de vermelho estão todas as unidades já existentes do laboratório.
 Enquanto que de azul estão as 10 candidatas.
+
+A primeira coisa que podemos notar é que as 10 candidatas não estão em cidades que já possuem unidades do laboratório. Em seguida é possível notar que Nova York tem 4 candidatas e Houston possui 2. As outras cidades são Los Angeles, Chicago, Nashville e El Paso.
+
+![image](https://github.com/RafaelGuisso/AED_elogroup/assets/108840079/d90ca340-a1f2-4a8b-847a-00548954a063)
+
+A cidade de Houston no Texas apresentou 2 pontos muito próximos um do outro, oque provavelmente significa que, escolhendo um endereço correto proximo da divisa desses dois zipcodes é possível que se venda testes de laboratório para ambos as populações.
+
+O zipcode 77449 aprensentou os melhores dados para a demografia e renda familiar alvo dentre os 10 candidatos, e vai ser a 1 das minhas escolhas.
+
+![image](https://github.com/RafaelGuisso/AED_elogroup/assets/108840079/2b5ca786-9cee-4006-97ba-ef6bb8f323ce)
+
+A primeira vista 11368 (O ponto mais a norte mostrado na imagem acima) apresenta os melhores números para a cidade, mas olhando o mapa da para ver que ele está mais afastado dos outros candidatos além disso a proporção de homens para mulheres não está ideal (uma vez que o ideal é que a população femina seja levemente superior).
+
+Já o ponto 11385 (Retirando o ponto mais ao norte, é o ponto que fica no meio dos pontos restantes) apresenta os 2 melhores números para a cidade de NY e fica relativamente próximo dos pontos 11368 e 11208, oque pode significar uma capacidade de atrir os públicos desses bairros vizinhos que também apresentam bons números.
+
+![image](https://github.com/RafaelGuisso/AED_elogroup/assets/108840079/a81f1dd0-134f-40d8-9f8c-5d11aa43c1e4)
+
+Por fim analisando os ultimos 4 zipcodes:
+60629 (Chicago) apresenta a segunda maior população dentre as 4, tendo também o maior número de pessoas dentro da faixa etária desejada(representado por populacao_alvo_x).
+Porém, aprensentou o pior número entre os 4 de familias dentro da faixa de renda alvo (representado por populacao_alvo_y).
+
+90250 (Los Angeles) apresenta números ruins tanto de população, renda familiar e de população dentro da faixa etária.
+
+Por fim, sobraram 79936 (El Paso) e 37013 (Nashville) que apresentaram números sólidos tanto de renda familiar e faixa etária adequadas.
+
+Minha escolha final será El Paso por apresentar maior população total, o fator que apresentou maior correlação com a varivél lucro, além disse ficou em 2 dentre os 4 tanto nos critérios econômicos como demográficos.
+
+![image](https://github.com/RafaelGuisso/AED_elogroup/assets/108840079/e93f1a25-a8be-431b-8a92-f4285b7f57d4)
+
 
 
