@@ -98,7 +98,7 @@ Porém, aprensentou o pior número entre os 4 de familias dentro da faixa de ren
 
 Por fim, sobraram 79936 (El Paso) e 37013 (Nashville) que apresentaram números sólidos tanto de renda familiar e faixa etária adequadas.
 
-Minha escolha final será El Paso por apresentar maior população total, o fator que apresentou maior correlação com a varivél lucro, além disse ficou em 2 dentre os 4 tanto nos critérios econômicos como demográficos.
+Minha escolha final será El Paso por apresentar maior população total, o fator que apresentou maior correlação com a varivél lucro, além disso ficou em 2 dentre os 4 tanto nos critérios econômicos como demográficos.
 
 ![image](https://github.com/RafaelGuisso/AED_elogroup/assets/108840079/e93f1a25-a8be-431b-8a92-f4285b7f57d4)
 
