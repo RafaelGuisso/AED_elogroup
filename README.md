@@ -7,26 +7,26 @@ Os dados deveriam ser tratados, uma análise exploratória dos dados deveria ser
 
 O dataset é composto pelos arquivos: test_data.csv , EconomicData_ZCTAs.csv , df_geocode.csv , DemographicData_ZCTAs.csv e transactional_data.csv .
 
-test_data contém as informações sobre os testes como custo de aplicação e nome do teste.
+test_data contém informações sobre os testes, como custo de aplicação e nome do teste.
 
 df_geocode contém as informações geográficas sobre cada um dos laboratórios da rede.
 
-EconomicData_ZCTAs contem as informações economicas de cada ZIPCODE(equivalente ao CEP) dos Estados Unidos.
+EconomicData_ZCTAs contém as informações econômicas de cada zipcode (equivalente ao CEP) dos Estados Unidos.
 
 DemographicData_ZCTAs contém as informações demográficas de cada zipcode dos EUA.
 
 Por fim transactional_data contém as informações sobre mais de 2 milhões de transações realizadas pelas diversas unidades do laboratório.
-Esse é um arquivo de mais de 100mb e por isso não pode ser compartilhado no github. Para tal vou disponibilizar ele atras desse link:
+Esse é um arquivo de mais de 100mb e por isso não pode ser compartilhado no github. Para tal vou disponibilizar ele através desse link:
 
 https://drive.google.com/drive/folders/1beZQEtr7E4V_hmOp2bV3_yGfWZlYQRhq?usp=sharing
 
 # ANÁLISE EXPLORATÓRIA DOS DADOS
 
-Primeiramente foram necessários fazer varios tratamentos dos dados como: remover duplicados, colocar o código em snake case, colocar as variáveis com o tipo correto, procurar por valores vazios ou nulos, procurar por outliers ou valores absurdos, entre outros...
+Primeiramente foram necessários fazer varios tratamentos dos dados como: remover duplicados, colocar as colunas em snake case, colocar as variáveis com o tipo correto, procurar por valores vazios ou nulos, procurar por outliers ou valores absurdos, entre outros...
 
 ![image](https://github.com/RafaelGuisso/AED_elogroup/assets/108840079/1af8aa48-8715-4fb9-a9af-db91b4704ae4)
 
-Após a realização dos tratamentos foram realizados os primeiros calculos, como de idade dos consumidores, lucro de cada teste e lucro de cada unidade do laboratório.
+Após a realização dos tratamentos foram realizados os primeiros cálculos, como de idade dos consumidores, lucro de cada teste e lucro de cada unidade do laboratório.
 
 O objetivo era de descobrir quais o parametros que eram mais determinantes para o lucro utilizando uma matriz de correlação e mapas de calor.
 
@@ -101,6 +101,15 @@ Por fim, sobraram 79936 (El Paso) e 37013 (Nashville) que apresentaram números 
 Minha escolha final será El Paso por apresentar maior população total, o fator que apresentou maior correlação com a varivél lucro, além disso ficou em 2 dentre os 4 tanto nos critérios econômicos como demográficos.
 
 ![image](https://github.com/RafaelGuisso/AED_elogroup/assets/108840079/e93f1a25-a8be-431b-8a92-f4285b7f57d4)
+
+
+# CONCLUSÃO
+
+No final foram escolhidos Zipcodes com bom número de população que atendem tanto o critério econômico quanto o demográfico. Além disso são em estados que ainda não possuiam laboratórios da rede e que apresentaram multiplas opções de candidatos para serem escolhidos, evidenciando como essas eram opções fortes. 
+
+A utilização de um gráfico de correlação foi determinante para descobrir quais as principais variaveis que deveriam ser observadas para maximizar o lucro. Além disso, utilizar a visualização do mapa permitiu visualizar a proximidade dos pontos e evitar que dois pontos em uma mesma cidade fossem escolhidos. Mas ao mesmo tempo permitiu também perceber que mesmo estando no mesmo estado, El Paso e Houston estão bem distantes uma da outra, fazendo com que uma unidade não competisse com a outra.
+
+
 
 
 
