@@ -1,7 +1,7 @@
 # INSTRUÇÕES
 
 Esse repositório consiste de um desafio técnico. Foram fornecidos 5 arquivos csv contendo informações relevantes para a escolha de novas unidades de uma rede de laboratórios dos EUA.
-Os dados deveriam ser tratados, uma análise exploratória dos dados deveria ser realizada e que a escolha de 3 locais fosse justificada.
+Os dados deveriam ser tratados, uma análise exploratória dos dados deveria ser realizada e a escolha de 3 locais para novas unidades da rede deveria ser justificada.
 
 # DATASET
 
